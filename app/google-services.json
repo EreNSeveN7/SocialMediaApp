@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1009324143431",
+    "project_id": "socialmediaapplication-7dd76",
+    "storage_bucket": "socialmediaapplication-7dd76.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1009324143431:android:4df927886ac2952b981262",
+        "android_client_info": {
+          "package_name": "com.bau.socialmediaapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPRRIDNm0dcXX8VcYp4uL4klI_GNTYB0g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

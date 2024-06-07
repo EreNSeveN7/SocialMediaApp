@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".homeFragment.fragments.HomeFragment">
+
+  <RelativeLayout
+    android:id="@+id/relativeHome"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+      <LinearLayout
+          android:background="#031A31"
+
+          android:id="@+id/homeLayout"
+          android:layout_width="match_parent"
+          android:layout_height="55dp"
+          android:gravity="center_vertical"
+          android:orientation="horizontal">
+
+          <TextView
+              android:id="@+id/textHome"
+              android:layout_width="0dp"
+              android:layout_height="match_parent"
+              android:layout_weight="1"
+              android:gravity="left|center"
+              android:paddingLeft="10dp"
+              android:text="Home Screen"
+              android:textColor="@color/white"
+              android:textSize="23sp"
+              android:textStyle="bold" />
+
+          <!-- Sağdaki image button -->
+          <ImageButton
+
+              android:id="@+id/messageButton"
+              android:layout_width="50dp"
+              android:layout_height="50dp"
+              android:backgroundTint="@android:color/transparent"
+              android:contentDescription="message"
+              android:src="@drawable/baseline_message_24" />
+      </LinearLayout>
+
+      <androidx.recyclerview.widget.RecyclerView
+          android:id="@+id/recyclerHome"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_below="@+id/homeLayout"
+          android:layout_marginEnd="0dp" />
+
+
+  </RelativeLayout>
+
+
+
+</FrameLayout>
